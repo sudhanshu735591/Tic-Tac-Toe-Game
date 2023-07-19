@@ -79,6 +79,8 @@ buttonReset.addEventListener("click", ()=>{
     var text = document.querySelectorAll(".boxtext");
     Array.from(text).forEach(e =>{
         e.innerText = "";
+        
+        count = 0;
     })
 })
 
