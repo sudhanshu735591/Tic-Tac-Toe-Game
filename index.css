@@ -1,0 +1,139 @@
+*{
+  background-color: aliceblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 184px;
+    margin-left: 40rem;
+    margin-top: 5rem;
+    height: 17rem;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    width: 20px;
+    cursor: pointer;
+    color: red;
+  }
+
+
+
+  .text{
+    height: 4rem;
+    position: absolute;
+    width: 20rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+    left: 37rem;
+    top: 35rem;
+    font-size: 48px;
+    font: bold;
+    border-radius: 10px;
+  }
+
+  .play{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 80px;
+    color: blue;
+  }
+
+ 
+
+.button{
+  background-color: blue;
+  color: white;
+  position: absolute;
+  left: 43rem;
+  top: 40rem;
+  height: 42px;
+  width: 132px;
+  text-align: center;
+  border-radius: 9px;
+  font-size: 18px;
+}
+
+
+
+@media(max-width:1025px) {
+  .grid-container{
+    margin-left: 25rem;
+  } 
+  .text{
+    margin-left: -15rem;
+  }
+  .button{
+    margin-left: -15rem;
+
+  }
+}
+
+@media(max-width:768px) {
+  .grid-container{
+    margin-left: 17rem;
+  } 
+  .text{
+    margin-left: -23rem;
+  }
+  .button{
+    margin-left: -23rem;
+
+  }
+}
+
+
+@media(max-width:426px) {
+  .grid-container{
+    margin-left: 7rem;
+  } 
+  .text{
+    margin-left: -33rem;
+  }
+  .button{
+    margin-left: -33rem;
+  }
+}
+
+@media(max-width:376px) {
+  .grid-container{
+    margin-left: 4rem;
+  } 
+  .text{
+    margin-left: -35rem;
+  }
+  .button{
+    margin-left: -35rem;
+
+  }
+}
+
+@media(max-width:321px) {
+  .play{
+    font-size: 42px;
+  }
+  .grid-container{
+    margin-left: 3rem;
+  } 
+  .text{
+    margin-left: -33rem;
+    width: 201px;
+    margin-top: -88px;
+    font-size: 33px;
+    height: 43px;
+  }
+  .button{
+    margin-left: -37rem;
+    margin-top: -7rem;
+  }
+}
+
+
