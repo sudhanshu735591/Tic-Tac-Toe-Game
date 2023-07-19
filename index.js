@@ -33,14 +33,13 @@ const checkWin = ()=>{
                 audio1.play();
                 alert("Congratulations! Player1 wins");
                 result = true;
-
+                location.reload();
             }
-
             else{
                 audio1.play();
                 alert("Congratulations! Player2 wins");
                 result = true;
-                return;
+                location.reload();
             }
         }
     })
@@ -52,6 +51,7 @@ const checkWin = ()=>{
 const checkDraw = ()=>{
     if(count===9 && result===false){
         alert("Draw!");
+        location.reload();
     }
 }
 
@@ -79,7 +79,6 @@ buttonReset.addEventListener("click", ()=>{
     var text = document.querySelectorAll(".boxtext");
     Array.from(text).forEach(e =>{
         e.innerText = "";
-        
         count = 0;
     })
 })
