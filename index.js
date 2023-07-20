@@ -76,11 +76,7 @@ Array.from(boxes).forEach(element=>{
 
 var buttonReset = document.getElementById("button");
 buttonReset.addEventListener("click", ()=>{
-    var text = document.querySelectorAll(".boxtext");
-    Array.from(text).forEach(e =>{
-        e.innerText = "";
-        count = 0;
-    })
+    location.reload();
 })
 
 
